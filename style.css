@@ -224,6 +224,7 @@ language * {
   color: #6bd1ff;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 8px;
 }
 
 #save {

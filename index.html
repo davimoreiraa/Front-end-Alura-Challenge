@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Editor de Códigos Online</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img id="logo" src="./images/logoalura.png" alt="Logo da Alura" />
+      </h1>
+      <input id="search" placeholder="Busque por algo" />
+      <div id="profile">
+        <img
+          id="profilepic"
+          src="./images/profilepic.png"
+          alt="Foto de perfil"
+        />
+        <p id="name">Harry</p>
+      </div>
+    </header>
+    <menu>
+      <div id="links">
+        <h2>MENU</h2>
+        <div class="menu">
+          <a href=""
+            ><img src="./images/Icon.png" alt="Ícone do editor de texto"
+          /></a>
+          <h3>Editor de código</h3>
+        </div>
+        <div class="menu">
+          <a href=""
+            ><img src="./images/comunity.png" alt="Ícone da comunidade"
+          /></a>
+          <h3>Comunidade</h3>
+        </div>
+      </div>
+    </menu>
+    <main>
+      <div id="fundo">
+        <div id="editor">
+          <img src="./images/buttons.png" alt="botões" id="buttons" />
+          <input type="text" id="code" />
+        </div>
+      </div>
+      <button id="viewbutton">Visualizar com o highlight</button>
+    </main>
+    <section id="options">
+      <div id="infos">
+        <h2 id="yourproject">SEU PROJETO</h2>
+        <input type="text" id="projectname" placeholder="Nome do Projeto" />
+        <input
+          type="text"
+          id="description"
+          placeholder="Descrição do projeto"
+        />
+      </div>
+      <label for="language">PERSONALIZAÇÃO</label>
+      <select name="language" id="language">
+        <option value="js">JavaScript</option>
+        <option value="phyton">Phyton</option>
+        <option value="jv">Java</option>
+      </select>
+      <input type="color" id="color" />
+      <button id="save">Salvar Projeto</button>
+    </section>
+  </body>
+</html>

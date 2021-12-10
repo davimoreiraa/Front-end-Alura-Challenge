@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #051d3b;
+  display: grid;
+  grid-template-areas:
+    ' cabecalho cabecalho cabecalho'
+    'menu digitacao opcoes';
+}
+
+/*------------------------------------------ CABEÇALHO -----------------------------------------------------*/
+
+header {
+  grid-area: cabecalho;
+  display: flex;
+  justify-content: space-between;
+  width: 95.5%;
+  height: 5.4vh;
+  margin: 32px auto;
+}
+
+#logo {
+  height: 120%;
+}
+
+#search {
+  padding-left: 14px;
+  background-color: rgb(255, 255, 255, 0.16);
+  border-color: transparent;
+  border-radius: 8px;
+  width: 52.2%;
+}
+
+input#search::placeholder {
+  font-size: 18px;
+  opacity: 64%;
+  color: #ffffff;
+}
+
+#profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+#profilepic {
+  border-radius: 8px;
+}
+
+#name {
+  font-family: 'Inter', sans-serif;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 8px;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+/*------------------------------------------ MENU -------------------------------------------------------*/
+
+menu {
+  grid-area: menu;
+  width: 23.4vw;
+  height: 94.5vh;
+}
+
+#links {
+  width: 13.1vw;
+  height: 14.2vh;
+
+  margin-left: 2.2vw;
+  padding-top: 16px;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  width: 51px;
+  height: 18px;
+  color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  padding-top: 16px;
+}
+
+h3 {
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-left: 16px;
+}
+
+/*------------------------------------------ EDITOR -------------------------------------------------------*/
+
+main {
+  grid-area: digitacao;
+  width: 52.2vw;
+}
+
+#fundo {
+  display: inline-block;
+  background-color: #6bd1ff;
+  width: 52.2vw;
+  height: 35.74vh;
+  border-radius: 8px;
+}
+
+#editor {
+  margin: 3.1vh 2.2vw;
+  width: 47.7vw;
+  height: 29.4vh;
+  background-color: #000000;
+  border-radius: 8px;
+}
+
+#buttons {
+  width: 52px;
+  height: 12px;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+
+#code {
+  color: #ffffff;
+  width: 45.5vw;
+  height: 22.8vh;
+  background-color: #000000;
+  border: transparent;
+  margin-top: 11px;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  padding: 0px;
+}
+
+#viewbutton {
+  width: 52.2vw;
+  height: 5.4vh;
+  background-color: rgba(80, 129, 251, 0.08);
+  margin-top: 3.1vh;
+  border: transparent;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  font-size: 19px;
+}
+
+/*------------------------------------------ OPÇÕES -------------------------------------------------------*/
+#options {
+  grid-area: opcoes;
+  width: 19vw;
+}
+
+#infos {
+  padding-top: 16px;
+}
+
+#projectname,
+#description {
+  width: 18.8vw;
+  background-color: rgb(255, 255, 255, 0.16);
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: transparent;
+}
+
+#projectname::placeholder,
+#description::placeholder {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  width: 159px;
+  color: #ffffff;
+}
+
+#projectname {
+  height: 5.4vh;
+}
+
+#description {
+  height: 7.8vh;
+}
+
+#yourproject {
+  width: 130px;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+label {
+  display: block;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+select {
+  display: block;
+  height: 5.4vh;
+  width: 18.8vw;
+  background-color: rgb(255, 255, 255, 0.16);
+  border: transparent;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+
+language * {
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  width: 159px;
+  color: #ffffff;
+}
+
+#color {
+  display: block;
+  width: 17.7vw;
+  height: 47px;
+  color: #6bd1ff;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#save {
+  display: block;
+  height: 5.4vh;
+  width: 18.8vw;
+  margin-top: 40px;
+  background-color: #5081fb;
+  border: transparent;
+  border-radius: 8px;
+  color: #051d3b;
+  font: 1rem;
+}
+
+/*  
+largura da pag no figma: 1440px
+altura da pag no figma : 1024px
+
+
+*/

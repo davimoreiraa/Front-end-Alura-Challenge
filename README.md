@@ -26,3 +26,16 @@
 <h2>Publicação</h2>
 <p align='center' style='font-size:17px'>Você pode olhar o resultado da página pelo Vercel neste <a href='https://front-end-alura-challenge.vercel.app/'>link</a></p>
 <hr/>
+<h2>Baixando o repositório para sua máquina</h2>
+<p>Clone o repositório na sua máquina:</p>
+
+```bash
+git clone https://github.com/davimoreiraa/Front-end-Alura-Challenge.git
+```
+
+<hr/>
+<footer>
+  <p style='font-size:17px'>🍊 Made by Davi Moreira | See my 
+    <a href="https://www.linkedin.com/in/davi-moreira-dos-santos-804280203/">LinkedIn</a>
+  </p>
+</footer>
